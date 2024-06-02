@@ -1,0 +1,43 @@
+.headerLinksContainer {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.authContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+/* .headerLink {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+} */
+
+/* .active {
+    color: red;
+    text-decoration: underline;
+} */
+
+.navLinksContainer {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.headerLoggedUserContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.headerButton {
+    cursor: pointer;
+}

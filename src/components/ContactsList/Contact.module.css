@@ -1,0 +1,72 @@
+.contactcontainer {
+    min-width: 400px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .contactcontainer {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;}
+}
+
+.info {
+    padding-left: 10px;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.contactInfo {
+    display: flex;
+    align-items: flex-end;
+}
+
+.contactButtons {
+    display: flex;
+    gap: 8px;
+}
+
+.button {
+    margin-left: auto;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 1px 0px, 1px 1px 0px 0px, 1px 1px 0px 0px, 2px 2px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-radius: 10px;
+}
+
+.button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+    border-radius: 15px;
+}
+
+.button:hover {
+    background-color: burlywood;
+    border-radius: 15px;
+   }
+
+@media (min-width: 768px) {
+    .button {
+        padding: 0.25em 0.75em;
+    }
+}
